@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2e0e9a;
+  background: #e79d01;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2661,7 +2661,7 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("https://source.unsplash.com/daily");
+  background: url("https://source.unsplash.com/1600x900/?nature");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
