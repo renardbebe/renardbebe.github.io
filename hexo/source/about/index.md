@@ -39,15 +39,15 @@ type: "about"
 
 ## Education
 
-Sun Yat-sen University | Software Engineering (Bachelor) **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `** SEP 2015 - June 2019
+Sun Yat-sen University | Software Engineering (Bachelor) **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `** SEP 2015 - June 2019
 
-Tsinghua University | Software Engineering (Master)  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**   **` `** SEP 2019 - June 2022
+Tsinghua University | Software Engineering (Master)  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `** SEP 2019 - June 2022
 
 
 
 ## Projects
 
-##### Security Analysis of Block Chain System (PI, 30, 000 $) **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `** Sep 2018 - July 2019
+##### Security Analysis of Block Chain System (PI, 30, 000 $) **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `**  **` `** Sep 2018 - July 2019
 
 * The project mainly focuses on using static analysis and dynamic analysis to automatically generate the contracts and inputs for the vulnerability detection of the Ethereum virtual machine.
 * We successfully detected 5 high-risk security vulnerabilities in 4 widely-used EVM platforms and provided a reinforcement version of virtual machine for the alliance blockchain FISCO BCOS.
