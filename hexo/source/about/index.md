@@ -6,15 +6,37 @@ type: "about"
 
 # Meng Ren
 
-**School  :**               Tsinghua University,  China 
-
-**Major   :**               Software Engineering
-
-**Lab       :**               Software System and Engineering Lab
-
-**Email    :**               rm19@mails.tsinghua.edu.cn
-
-**Phone   :**              13329052199
+<table>
+    <tr>
+        <td width="65%">
+            <table>
+                <tr>
+                    <th align="center">School</th>
+                    <td align="left">Tsinghua University,  China</td>
+                </tr>
+                <tr>
+                    <th align="center">Major</th>
+                    <td align="left">Software Engineering</td>
+                </tr>
+                <tr>
+                    <th align="center">Lab</th>
+                    <td align="left">Software System and Engineering Lab</td>
+                </tr>
+                <tr>
+                    <th align="center">Email</th>
+                    <td align="left">rm19@mails.tsinghua.edu.cn</td>
+                </tr>
+                <tr>
+                    <th align="center">Phone Number</th>
+                    <td align="left">86 13329052199</td>
+                </tr>
+            </table>
+        </td>
+        <td width="35%" height="100%">
+            <img src="me.jpg" alt="pic" />
+        </td>
+    </tr>
+</table>
 
 
 
