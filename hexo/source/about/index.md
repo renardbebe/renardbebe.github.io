@@ -4,17 +4,19 @@ date: 2019-07-05 14:59:59
 type: "about"
 ---
 
+
+
 # Meng Ren
 
-**:school: School  :**               Tsinghua University,  China 
+**School  :**               Tsinghua University,  China 
 
-**:mortar_board: Major   :**               Software Engineering
+**Major   :**               Software Engineering
 
-**:notebook:   Lab      :**               Software System and Engineering Lab
+**Lab       :**               Software System and Engineering Lab
 
-**:e-mail:  Email   :**               rm19@mails.tsinghua.edu.cn
+**Email    :**               rm19@mails.tsinghua.edu.cn
 
-**:telephone_receiver:  Phone  :**              13329052199
+**Phone   :**              13329052199
 
 
 
@@ -28,9 +30,10 @@ Tsinghua University | Software Engineering (Master)                             
 
 ## Projects
 
-* **Security Analysis of Block Chain System (PI, 30, 000 $)                         Sep 2018 - July 2019**
-  * The project mainly focuses on using static analysis and dynamic analysis to automatically generate the contracts and inputs for the vulnerability detection of the Ethereum virtual machine.
-  * We successfully detected 5 high-risk security vulnerabilities in 4 widely-used EVM platforms and provided a reinforcement version of virtual machine for the alliance blockchain FISCO BCOS.
+##### **Security Analysis of Block Chain System (PI, 30, 000 $)                                Sep 2018 - July 2019**
+
+* The project mainly focuses on using static analysis and dynamic analysis to automatically generate the contracts and inputs for the vulnerability detection of the Ethereum virtual machine.
+* We successfully detected 5 high-risk security vulnerabilities in 4 widely-used EVM platforms and provided a reinforcement version of virtual machine for the alliance blockchain FISCO BCOS.
 
 
 
