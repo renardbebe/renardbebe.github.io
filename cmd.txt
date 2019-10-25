@@ -2,6 +2,8 @@ cd hexo
 hexo clean
 hexo g
 hexo d
+# hexo server
+# http://localhost:4000/
 cd ..
 git add .
 git commit -m "update"
