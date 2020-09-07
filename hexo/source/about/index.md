@@ -19,13 +19,13 @@ type: "about"
                     <td align="left">Major &nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software Engineering</td>
                 </tr>
                 <tr>
-                    <td align="left">Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software System and Engineering Lab</td>
+                    <td align="left">Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;KLISS, BNRist, School of Software</td>
+                </tr>
+                <tr>
+                    <td align="left">Group &nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Software System Security Assurance Group</td>
                 </tr>
                 <tr>
                     <td align="left">Email &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rm19@mails.tsinghua.edu.cn</td>
-                </tr>
-                <tr>
-                    <td align="left">Phone &nbsp;&nbsp;: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+86 13329052199</td>
                 </tr>
             </table>
         </td>
@@ -34,6 +34,7 @@ type: "about"
         </td>
     </tr>
 </table>
+
 
 
 
@@ -59,11 +60,31 @@ Tsinghua University | Software Engineering (Master)  **` `**  **` `**  **`�
 ##### 2019
 
 * Ying Fu, **Meng Ren**, Fuchen Ma, Heyuan Shi, Xin Yang, Yu Jiang, Huizhong Li, Xiang Shi :
-  **EVMFuzzer: Detect EVM Vulnerabilities via Fuzz Testing.** 
+  ***EVMFuzzer: Detect EVM Vulnerabilities via Fuzz Testing.***
   ACM 27th Symposium on the Foundations of Software Engineering (**FSE**), Estonia, 2019.  [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/fse19demo.pdf) 
 
 * Fuchen Ma, Ying Fu, **Meng Ren**, Mingzhe Wang, Yu Jiang :
-  **EVM\*: From offline detection to Online Reinforcement for Ethereum Virtual Machine.**  IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (**SANER**), China, 2019. [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/saner-evm.pdf) 
+  ***EVM\*: From offline detection to Online Reinforcement for Ethereum Virtual Machine.***
+  IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (**SANER**), China, 2019. [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/saner-evm.pdf) 
+  
+* Ying Fu, **Meng Ren**, Fuchen Ma, Yu Jiang, Heyuan Shi, Jiaguang Sun :
+  
+  ***EVMFuzz: Differential Fuzz Testing of Ethereum Virtual Machine.***
+  arXiv preprint arXiv:1903.08483. [pdf](https://arxiv.org/pdf/1903.08483)
+  
+* Fuchen Ma, Ying Fu, **Meng Ren**, Wanting Sun, Zhe Liu, Yu Jiang, Jun Sun, Jiaguang Sun :
+  ***GasFuzz: Generating High Gas Consumption Inputs to Avoid Out-of-Gas Vulnerability.*** 
+  arXiv preprint arXiv:1910.02945. [pdf](https://arxiv.org/pdf/1910.02945)
+
+##### 2020
+
+
+
+
+
+## Academic Service
+
+* Reviewer, Journal of Software
 
 
 
