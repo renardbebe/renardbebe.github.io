@@ -30,7 +30,7 @@ type: "about"
             </table>
         </td>
         <td width="35%" height="100%">
-            <img src="me.jpg" alt="pic" />
+            <img src="beauty_20210617132008.jpg" alt="pic" />
         </td>
     </tr>
 </table>
@@ -57,18 +57,28 @@ Tsinghua University | Software Engineering (Master)  **`窶チ**  **`窶チ**  **`窶
 
 ## Publications
 
+
+##### 2021
+
+* **Meng Ren**, Zijing Yin, Fuchen Ma, Zhenyang Xu, Yu Jiang, Chengnian Sun, Huizhong Li, Yan Cai : 
+  ***Empirical Evaluation of Smart Contract Testing: What Is the Best Choice?***
+   ACM 30th SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA**), Denmark, 2021. [pdf](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/issta21_empirical.pdf)
+* **Meng Ren**, Fuchen Ma, Zijing Yin, Huizhong Li, Ying Fu, Ting Chen, Yu Jiang : 
+  ***SCStudio: A Secure and Efficient Integrated Development Environment for Smart Contracts***
+   ACM 30th SIGSOFT International Symposium on Software Testing and Analysis (**ISSTA**), Denmark, 2021. [pdf](http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/issta21_tool.pdf)
+
+
 ##### 2019
 
 * Ying Fu, **Meng Ren**, Fuchen Ma, Heyuan Shi, Xin Yang, Yu Jiang, Huizhong Li, Xiang Shi :
   ***EVMFuzzer: Detect EVM Vulnerabilities via Fuzz Testing.***
-  ACM 27th Symposium on the Foundations of Software Engineering (**FSE**), Estonia, 2019.  [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/fse19demo.pdf) 
+  ACM 27th Symposium on the Foundations of Software Engineering (**FSE**), Estonia, 2019. [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/fse19demo.pdf) 
 
 * Fuchen Ma, Ying Fu, **Meng Ren**, Mingzhe Wang, Yu Jiang :
   ***EVM\*: From offline detection to Online Reinforcement for Ethereum Virtual Machine.***
   IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (**SANER**), China, 2019. [pdf](http://wingtecher.com/themes/WingTecherResearch/assets/papers/saner-evm.pdf) 
   
 * Ying Fu, **Meng Ren**, Fuchen Ma, Yu Jiang, Heyuan Shi, Jiaguang Sun :
-  
   ***EVMFuzz: Differential Fuzz Testing of Ethereum Virtual Machine.***
   arXiv preprint arXiv:1903.08483. [pdf](https://arxiv.org/pdf/1903.08483)
   
@@ -76,18 +86,14 @@ Tsinghua University | Software Engineering (Master)  **`窶チ**  **`窶チ**  **`窶
   ***GasFuzz: Generating High Gas Consumption Inputs to Avoid Out-of-Gas Vulnerability.*** 
   arXiv preprint arXiv:1910.02945. [pdf](https://arxiv.org/pdf/1910.02945)
 
-##### 2020
-
-
-
-
 
 ## Academic Service
 
 * Reviewer, Journal of Software
 
 
-
 ## Awards
 
-* **Third price** in China FISCO-BCOS Blockchain Application Competition, 2018
+* National Scholarship, 2016
+* National Scholarship, 2017
+* Third price in China FISCO-BCOS Blockchain Application Competition, 2018
