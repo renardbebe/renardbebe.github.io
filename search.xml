@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[摄影技巧]]></title>
+    <url>%2F2022%2F03%2F10%2F%E6%91%84%E5%BD%B1%E6%8A%80%E5%B7%A7%2F</url>
+    <content type="text"><![CDATA[1 相机参数篇1.1 镜头名称解读 镜头品牌 镜头类型 EF：全画幅镜头 镜头焦距 变焦：镜头的焦段 定焦 最大光圈 1:N L：佳能红圈高级镜头 USM：超声波马达 1.2 档位 M 档：纯手动 根据测光游标，调整参数，增加 / 减少曝光度 Av 档：光圈优先 光圈决定背景虚化程度 F 值越大，光圈越小，景深越深，背景越清晰 F 值越小，光圈越大，景深越浅，背景虚化 可能出现衍射现象，即“星芒” Tv 档：快门优先 快门决定曝光速度 高速：清晰 慢速：背景动感模糊效果 P 档：纯自动 测光 按住曝光锁定按钮（✻） 拍摄 1.3 测光模式对着中性灰区域（花、）对焦，然后锁定曝光 评价测光： 测光区域：焦点位置为主，兼顾整体画面亮度（测光位置与焦点重合） 拍摄风景、建筑、合照（外拍） 局部测光： 测光区域：以画面中央较大的圆 拍摄半身像 点测光： 测光区域：以画面中央较小的圆 拍摄剪影效果或突出主体 中央重点平均测光： 测光区域：画面中央为主，兼顾整体画面亮度 拍摄人物特写 1.4 镜头参数 变焦环： 镜头伸缩，拉近景 对焦环： 改变焦平面 对焦按钮： AF：自动对焦，按快门时自动对焦 MF：手动对焦，通过转动对焦环对焦 景深预览按钮： 按下【景深预览】按钮，就可以看到景深效果了（使用大 F 值拍摄时） 1.5 拍摄参数设置光圈 F 值 日常摄影参数： 花朵特写：F1.2 - F4 人脸特写：F1.2 - F4 半身照：F2.8 - F5.6 全身照：F5.6 - F10 集体照：F10 - F16 风景全景：F10 - F16 夜晚人像：F2.8 - F5.6 星轨 / 烟花 / 光绘：F16 - F22 设置依据： 对照片的影响： F 越大，背景越清晰 F 越小，背景越虚化 对曝光的影响： F 越大，产生曝光量越少 F 越小，产生曝光量越多 对拍摄的影响： F 较大时，需要快门速度更慢以增加曝光（配合三脚架） 快门（曝光时间） 日常摄影参数： 平时手持：1/100s - 1/200s 星轨：&gt; 2h（B档+三脚架） 光绘：30s - 40s（三脚架） 烟火：1s - 8s（三脚架） 移动的人 / 车：1/30s - 1/60s 镜头跟着移动，再按快门 运动物体：&gt; 1/600s 设置依据： 对照片效果的影响： 快门越快，抓拍瞬间越快 对曝光的影响： 快门越快，产生曝光量越少 快门越慢，产生曝光量越多 对拍摄的影响： 快门低于1/100s，容易因手抖产生模糊 iso 值（感光度） 基本原则：越小越好 高速快门抓拍：调高 ISO 大光圈拍合影：调高 ISO 日常摄影参数： 白天室外光线好：ISO 200 - 400 白天室内光线差：ISO 400 - 800 光线极差：ISO 800 - 1600 设置依据： 对照片效果的影响： 感光度越高：照片噪点越高 感光度越低：照片质量越好 对曝光的影响： 感光度越高：产生曝光量多 感光度越低：产生曝光量少 增加曝光量：调慢 快门，调小 F，调高 iso 虚化背景：大光圈（小 F），长焦距，短物距 2 风景篇3 人物篇拍女孩Tips: Pose / 角度：拍男孩Tips: 侧身45°脸部轮廓更立体 让光线偏向侧面打光，通过阴影衬托立体感 Pose / 角度:4 场景篇5 其他事项]]></content>
+      <categories>
+        <category>小生活</category>
+      </categories>
+      <tags>
+        <tag>Little Life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[二维 vector 初始化]]></title>
+    <url>%2F2022%2F03%2F10%2FTips.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%88%9D%E5%A7%8B%E5%8C%96%2F</url>
+    <content type="text"><![CDATA[1234567891011// 初始化一个 二维 vectorvector&lt; vector&lt;int&gt; &gt; vt;// 使用另一个 二维 vector 初始化当前二维vectorvector&lt;vector&lt;int&gt; &gt; vect(vt);// 初始化一个 二维 vector 行row, 列column, 且值为 0vector&lt;vector&lt;int&gt; &gt; vec(row, vector&lt;int&gt;(column));// 初始化一个 二维 vector 行row, 列column, 且值为 data=6 自定义 datavector&lt;vector&lt;int&gt; &gt; visited(row, vector&lt;int&gt;(column,6));// 初始化一个 二维 vector 行row, 第二个参数为一维 vector;vector&lt;vector&lt;int&gt; &gt; vecto(row, vector&lt;int&gt;(vt[0].begin()+1,vt[0].begin()+3));]]></content>
+      <categories>
+        <category>Tips</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[2. Trailing Zeros]]></title>
+    <url>%2F2022%2F03%2F10%2FLintCode.%20Trailing%20Zeros%2F</url>
+    <content type="text"><![CDATA[Question：给定一个数字 n，求 n! 的结尾有多少个0。 Solution：Ⅰ 思路通过乘法能产生0的，需要2x5，因此只需要统计阶乘中有多少个因子5即可。 Ⅱ 关键代码12345cnt = 0while (n) : cnt += int(n/5) n /= 5return cnt Conclusion：&gt; 如何求 n! 某个因子 a 的个数？ n! 可以拆解为 a 的倍数，和 others 因为 k 是阶乘中最大的 a 的倍数，故 $k = int(n/a)$ 从(4)式中可以提取出 k 个 a，然后再用同样的方法分解 k! $$\begin{align}n! &amp;= 123…(n-2)(n-1)n \&amp;= (a2a*3a…ka)*others \&amp;= a^k(123…k)others \&amp;= a^kk!*others\end{align}$$]]></content>
+      <categories>
+        <category>LintCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20%E6%A8%A1%E6%9D%BF%2F</url>
+    <content type="text"><![CDATA[Question：Solution： Ⅱ 关键代码C++ 12]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[337. 打家劫舍 III]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%20III%2F</url>
+    <content type="text"><![CDATA[Question：在上次打劫完一条街道之后和一圈房屋后，小偷又发现了一个新的可行窃的地区。这个地区只有一个入口，我们称之为“根”。 除了“根”之外，每栋房子有且只有一个“父“房子与之相连。一番侦察之后，聪明的小偷意识到“这个地方的所有房屋的排列类似于一棵二叉树”。 如果两个直接相连的房子在同一天晚上被打劫，房屋将自动报警。 计算在不触动警报的情况下，小偷一晚能够盗取的最高金额。 Solution：简化一下这个问题：一棵二叉树，树上的每个点都有对应的权值，每个点有两种状态（选中和不选中），问在不能同时选中有父子关系的点的情况下，能选中的点的最大权值和是多少。 我们可以用 f(o) 表示选择 o 节点的情况下， o 节点的子树上被选择的节点的最大权值和；g(o) 表示不选择 o 节点的情况下， o 节点的子树上被选择的节点的最大权值和；l 和 r 代表 o 的左右孩子。 当 o 被选中时， o 的左右孩子都不能被选中，故 o 被选中情况下子树上被选中点的最大权值和为 l 和 r 不被选中的最大权值和相加，即 $$f(o)=o.val+g(l)+g(r)$$ 当 o 不被选中时， o 的左右孩子可以被选中，也可以不被选中。对于 o 的某个具体的孩子 x，它对 o 的贡献是 x 被选中和不被选中情况下权值和的较大值。故 $$g(o) = \max { f(l) , g(l)}+\max{ f(r) , g(r) }g(o)=max{f(l),g(l)}+max{f(r),g(r)}$$ 至此，我们可以用哈希映射来存 f 和 g 的函数值，用深度优先搜索的办法后序遍历这棵二叉树，我们就可以得到每一个节点的 f 和 g。根节点的 f 和 g 的最大值就是我们要找的答案。 Ⅱ 关键代码C++ 12345678910111213141516171819class Solution &#123;public: unordered_map &lt;TreeNode*, int&gt; f, g; void dfs(TreeNode* o) &#123; if (!o) &#123; return; &#125; dfs(o-&gt;left); dfs(o-&gt;right); f[o] = o-&gt;val + g[o-&gt;left] + g[o-&gt;right]; g[o] = max(f[o-&gt;left], g[o-&gt;left]) + max(f[o-&gt;right], g[o-&gt;right]); &#125; int rob(TreeNode* o) &#123; dfs(o); return max(f[o], g[o]); &#125;&#125;;]]></content>
+      <categories>
+        <category>LeetCode-cn</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[33. Search in Rotated Sorted Array]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Search%20in%20Rotated%20Sorted%20Array%2F</url>
+    <content type="text"><![CDATA[Question：Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. (i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]). You are given a target value to search. If found in the array return its index, otherwise return -1. You may assume no duplicate exists in the array. Your algorithm’s runtime complexity must be in the order of O(log n). Example 1: 12Input: nums = [4,5,6,7,0,1,2], target = 0Output: 4 Example 2: 12Input: nums = [4,5,6,7,0,1,2], target = 3Output: -1 Solution：The array is sorted, except it might drop at one point. If nums[0] &lt;= nums[i], then nums[0..i] is sorted (in case of “==“ it’s just one element, and in case of “&lt;“ there must be a drop elsewhere). So we should keep searching in nums[0..i] if the target lies in this sorted range, i.e., if nums[0] &lt;= target &lt;= nums[i]. If nums[i] &lt; nums[0], then nums[0..i] contains a drop, and thus nums[i+1..end] is sorted and lies strictly between nums[i] and nums[0]. So we should keep searching in nums[0..i] if the target doesn’t lie strictly between them, i.e., if target &lt;= nums[i] &lt; nums[0] or nums[i] &lt; nums[0] &lt;= target Ⅱ 关键代码C++ 123456789101112while (lo &lt;= hi) &#123; int mid = (lo + hi) / 2; // check whether exactly two of them are true if (nums[mid] == target) return mid; if (nums[0] &lt;= target &lt; nums[mid] or target &lt; nums[mid] &lt; nums[0] or nums[mid] &lt; nums[0] &lt;= target) hi = mid - 1; else low = mid + 1;&#125;]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[31. Next Permutation]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Next%20Permutation%2F</url>
+    <content type="text"><![CDATA[Question：找到自然顺序下的下一个全排列. Implement next permutation, which rearranges numbers into the lexicographically next greater permutation of numbers. If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order). The replacement must be in-place and use only constant extra memory. Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column. 1,2,3 → 1,3,23,2,1 → 1,2,31,1,5 → 1,5,1 Solution：根据全排列的规律。 从前往后找到第一个降序位置：412431^ 对从该位置到结尾的降序序列进行翻转：12134^^^ 找到降序位置的前一个数字：212134 ^ 从前往后找到降序序列中第一个比它大的数字：312134^ 交换：13124 Ⅱ 关键代码C++ 1234567891011121314151617181920212223242526int len = nums.size();int startPos = len-1, endPos = len-1, firstPos = 0;for (int i = endPos-1; i &gt;= 0; i--) &#123; if (nums[i+1] &lt;= nums[i]) &#123; startPos = i; &#125; else break;&#125;// reverse decreasing partint j = endPos;for (int i = startPos; i &lt;= j; i++) &#123; swap(nums[i], nums[j]); j--;&#125;if(startPos &gt; 0) &#123; int desNum = nums[startPos-1]; for (int i = startPos; i &lt;= endPos; i++) &#123; if (desNum &lt; nums[i]) &#123; firstPos = i; break; &#125; &#125; swap(nums[startPos-1], nums[firstPos]);&#125;]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[4. Median of Two Sorted Arrays]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Median%20of%20Two%20Sorted%20Arrays%2F</url>
+    <content type="text"><![CDATA[Question：There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). You may assume nums1 and nums2 cannot be both empty. Example 1: 1234nums1 = [1, 3]nums2 = [2]The median is 2.0 Example 2: 1234nums1 = [1, 2]nums2 = [3, 4]The median is (2 + 3)/2 = 2.5 Solution：问题可以转换为 在两个数组中，找到两个分隔位置 i 和 j，将数组分割成两个部分： ​ left_part | right_part ​ A[0], A[1], …, A[i-1] | A[i], A[i+1], …, A[m-1] ​ B[0], B[1], …, B[j-1] | B[j], B[j+1], …, B[n-1] 使满足： len(left_part) = len(right_part) → i + j = m - i + n - j i := 0~m j := (m+n+1)/2 - i 左边的元素都比右边的小： A[i-1] ≤ A[i]（已满足），A[i-1] ≤ B[j] B[j-1] ≤ B[j]（已满足），B[j-1] ≤ A[i] 对于分隔位置的选取： 对于包含 N 个元素的数组，有 N 个可能的分隔位置。 使用二分查找，保证时间复杂度为 O(log (m+n))。 Ⅱ 关键代码C++ 1234567891011121314151617181920212223242526272829303132333435363738if (len1 &gt; len2) &#123; swap(nums1, nums2); swap(len1, len2);&#125;// len(nums1) &lt; len(nums2)int low = 0, high = len1;while (low &lt;= high) &#123; int mid1 = (low + high) / 2; // location of partition 1 // left part &gt;= right part int mid2 = ((len1 + len2 + 1) / 2) - mid1; // location of partition 2 if (mid1 &lt; high &amp;&amp; nums1[mid1] &lt; nums2[mid2-1]) &#123; // mid1 is too small low = mid1 + 1; &#125; else if (mid1 &gt; low &amp;&amp; nums1[mid1-1] &gt; nums2[mid2]) &#123; // mid1 is too large high = mid1 - 1; &#125; else &#123; int maxLeft = 0, minRight = 0; // get the max of left partitions if (mid1 == 0) maxLeft = nums2[mid2-1]; else if (mid2 == 0) maxLeft = nums1[mid1-1]; else maxLeft = max(nums1[mid1-1], nums2[mid2-1]); // when total length is odd if ((len1 + len2) % 2) return maxLeft; // get the min of right partitions if (mid1 == len1) minRight = nums2[mid2]; else if (mid2 == len2) minRight = nums1[mid1]; else minRight = min(nums1[mid1], nums2[mid2]); return (maxLeft + minRight) / 2.0; &#125;&#125; 注意数组可能为空 注意两个数组长度关系 注意奇偶数的情况]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[55. Jump Game]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Jump%20Game%2F</url>
+    <content type="text"><![CDATA[Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index. https://leetcode.com/articles/jump-game/ Example 1: 123Input: nums = [2,3,1,1,4]Output: trueExplanation: Jump 1 step from index 0 to 1, then 3 steps to the last index. Example 2: 123Input: nums = [3,2,1,0,4]Output: falseExplanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index. Constraints: 1 &lt;= nums.length &lt;= 3 * 10^4 0 &lt;= nums[i][j] &lt;= 10^5 Naming We call a position in the array a “good index” if starting at that position, we can reach the last index. Otherwise, that index is called a “bad index”. The problem then reduces to whether or not index 0 is a “good index”. Solution This is a dynamic programming1 question. Usually, solving and fully understanding a dynamic programming problem is a 4 step process: Start with the recursive backtracking solution Optimize by using a memoization table (top-down3 dynamic programming) Remove the need for recursion (bottom-up dynamic programming) Apply final tricks to reduce the time / memory complexity All solutions presented below produce the correct result, but they differ in run time and memory requirements. Approach 1: BacktrackingThis is the inefficient solution where we try every single jump pattern that takes us from the first position to the last. We start from the first position and jump to every index that is reachable. We repeat the process until last index is reached. When stuck, backtrack. One quick optimization we can do for the code above is to check the nextPosition from right to left. The theoretical worst case performance is the same, but in practice, for silly examples, the code might run faster. Intuitively, this means we always try to make the biggest jump such that we reach the end as soon as possible The change required is: For instance, in the example below, if we start from index 0, jump as far as possible and reach 1, jump as far as possible and reach 6. By doing so, we determine that 0 is a GOOD index in 3 steps. Index 0 1 2 3 4 5 6 nums 1 5 2 1 0 2 0 To illustrate the worst case, where this optimization has no effect, take the example below. Index 6 cannot be reached from any position, but all combinations will be tried. Index 0 1 2 3 4 5 6 nums 5 4 3 2 1 0 0 The first few steps of the backtracking algorithm for the example above are: 0 -&gt; 4 -&gt; 5 -&gt; 4 -&gt; 0 -&gt; 3 -&gt; 5 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; etc. Complexity Analysis Time complexity : O(2^n)O(2n). There are 2^n2n (upper bound) ways of jumping from the first position to the last, where nn is the length of array nums. For a complete proof, please refer to Appendix A. Space complexity : O(n)O(n). Recursion requires additional memory for the stack frames. Approach 2: Dynamic Programming Top-downTop-down Dynamic Programming can be thought of as optimized backtracking. It relies on the observation that once we determine that a certain index is good / bad, this result will never change. This means that we can store the result and not need to recompute it every time. Therefore, for each position in the array, we remember whether the index is good or bad. Let’s call this array memo and let its values be either one of: GOOD, BAD, UNKNOWN. This technique is called memoization2. An example of a memoization table for input array nums = [2, 4, 2, 1, 0, 2, 0] can be seen in the diagram below. We write G for a GOOD position and B for a BAD one. We can see that we cannot start from indices 2, 3 or 4 and eventually reach last index (6), but we can do that from indices 0, 1, 5 and (trivially) 6. Index 0 1 2 3 4 5 6 nums 2 4 2 1 0 2 0 memo G G B B B G G Steps Initially, all elements of the memo table are UNKNOWN, except for the last one, which is (trivially) GOOD (it can reach itself) Modify the backtracking algorithm such that the recursive step first checks if the index is known ( GOOD / BAD ) If it is known then return True / False Otherwise perform the backtracking steps as before Once we determine the value of the current index, we store it in the memo table Complexity Analysis Time complexity : O(n^2)O(n2). For every element in the array, say i, we are looking at the next nums[i] elements to its right aiming to find a GOOD index. nums[i] can be at most nn, where nn is the length of array nums. Space complexity : O(2n) = O(n)O(2n)=O(n). First n originates from recursion. Second n comes from the usage of the memo table. Approach 3: Dynamic Programming Bottom-upTop-down to bottom-up conversion is done by eliminating recursion. In practice, this achieves better performance as we no longer have the method stack overhead and might even benefit from some caching. More importantly, this step opens up possibilities for future optimization. The recursion is usually eliminated by trying to reverse the order of the steps from the top-down approach. The observation to make here is that we only ever jump to the right. This means that if we start from the right of the array, every time we will query a position to our right, that position has already be determined as being GOOD or BAD. This means we don’t need to recurse anymore, as we will always hit the memo table. Complexity Analysis Time complexity : O(n^2)O(n2). For every element in the array, say i, we are looking at the next nums[i] elements to its right aiming to find a GOOD index. nums[i] can be at most nn, where nn is the length of array nums. Space complexity : O(n)O(n). This comes from the usage of the memo table. Approach 4: GreedyOnce we have our code in the bottom-up state, we can make one final, important observation. From a given position, when we try to see if we can jump to a GOOD position, we only ever use one - the first one (see the break statement). In other words, the left-most one. If we keep track of this left-most GOOD position as a separate variable, we can avoid searching for it in the array. Not only that, but we can stop using the array altogether. Iterating right-to-left, for each position we check if there is a potential jump that reaches a GOOD index (currPosition + nums[currPosition] &gt;= leftmostGoodIndex). If we can reach a GOOD index, then our position is itself GOOD. Also, this new GOOD position will be the new leftmost GOOD index. Iteration continues until the beginning of the array. If first position is a GOOD index then we can reach the last index from the first position. To illustrate this scenario, we will use the diagram below, for input array nums = [9, 4, 2, 1, 0, 2, 0]. We write G for GOOD, B for BAD and U for UNKNOWN. Let’s assume we have iterated all the way to position 0 and we need to decide if index 0 is GOOD. Since index 1 was determined to be GOOD, it is enough to jump there and then be sure we can eventually reach index 6. It does not matter that nums[0] is big enough to jump all the way to the last index. All we need is one way. Index 0 1 2 3 4 5 6 nums 9 4 2 1 0 2 0 memo U G B B B G G Complexity Analysis Time complexity : O(n)O(n). We are doing a single pass through the nums array, hence nn steps, where nn is the length of array nums. Space complexity : O(1)O(1). We are not using any extra memory. ConclusionThe question left unanswered is how should one approach such a question in an interview scenario. I would say “it depends”. The perfect solution is cleaner and shorter than all the other versions, but it might not be so straightforward to figure out. The (recursive) backtracking is the easiest to figure out, so it is worth mentioning it verbally while warming up for the tougher challenge. It might be that your interviewer actually wants to see that solution, but if not, mention that there might be a dynamic programming solution and try to think how could you use a memoization table. If you figure it out and the interviewer wants you to go for the top-down approach, it will not generally be time to think of the bottom-up version, but I would always mention the advantages of this technique as a final thought in the interview. Most people are stuck when converting from top-down Dynamic Programming (expressed naturally in recursion) to bottom-up. Practicing similar problems will help bridge this gap. Appendix A - Complexity Analysis for Approach 1There are 2^n2n (upper bound) ways of jumping from the first position to the last, where nn is the length of array nums. We get this recursively. Let T(x)T(x) be the number of possible ways of jumping from position x to position n. T(n) = 1T(n)=1 trivially. T(x) = \sum_{i = x + 1}^{n} T(i)T(x)=∑i=x+1n**T(i) because from position x we can potentially jump to all following positions i and then from there there are T(i)T(i) ways of continuing. Notice this is an upper bound. \begin{aligned} T(x) &amp;= \sum_{i = x + 1}^{n} T(i) \ &amp;= T(x + 1) + \sum_{i = x + 2}^{n} T(i) \ &amp;= T(x + 1) + T(x + 1) \ &amp;= 2 \cdot T(x + 1) \end{aligned}T(x)=i=x+1∑n**T(i)=T(x+1)+i=x+2∑n**T(i)=T(x+1)+T(x+1)=2⋅T(x+1) Now by induction, assume T(x) = 2^{n - x - 1}T(x)=2n−x−1 and prove T(x - 1) = 2^{n - (x - 1) - 1}T(x−1)=2n−(x−1)−1 \begin{aligned} T(x - 1) &amp;= 2 \cdot T(x) \ &amp;= 2 \cdot 2^{n - x - 1} \ &amp;= 2^{n - x - 1 + 1} \ &amp;= 2^{n - (x - 1) - 1} \end{aligned}T(x−1)=2⋅T(x)=2⋅2n−x−1=2n−x−1+1=2n−(x−1)−1 Therefore, since we start from position 1, T(1) = 2^{n - 2}T(1)=2n−2. Final complexity O(2^{n - 2})O(2n−2) = O(2^n)O(2n).]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[706. Design HashMap]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Design%20HashMap%2F</url>
+    <content type="text"><![CDATA[Question：Design a HashMap without using any built-in hash table libraries. To be specific, your design should include these functions: put(key, value) : Insert a (key, value) pair into the HashMap. If the value already exists in the HashMap, update the value. get(key): Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key. remove(key) : Remove the mapping for the value key if this map contains the mapping for the key. Solution：Ⅰ Example123456789MyHashMap hashMap = new MyHashMap();hashMap.put(1, 1); hashMap.put(2, 2); hashMap.get(1); // returns 1hashMap.get(3); // returns -1 (not found)hashMap.put(2, 1); // update the existing valuehashMap.get(2); // returns 1 hashMap.remove(2); // remove the mapping for 2hashMap.get(2); // returns -1 (not found) Ⅱ 关键代码C++ 12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849class MyHashMap &#123; vector&lt;list&lt;pair&lt;int,int&gt;&gt;&gt; m_data; size_t m_size = 10000;public: /** Initialize your data structure here. */ MyHashMap() &#123; m_data.resize(m_size); &#125; /** value will always be non-negative. */ void put(int key, int value) &#123; auto &amp;list = m_data[key % m_size]; for (auto &amp; val : list) &#123; if (val.first == key) &#123; val.second = value; return; &#125; &#125; list.emplace_back(key, value); &#125; /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */ int get(int key) &#123; const auto &amp;list = m_data[key % m_size]; if (list.empty()) &#123; return -1; &#125; for (const auto &amp; val : list) &#123; if (val.first == key) &#123; return val.second; &#125; &#125; return -1; &#125; /** Removes the mapping of the specified value key if this map contains a mapping for the key */ void remove(int key) &#123; auto &amp;list = m_data[key % m_size]; list.remove_if([key](auto n) &#123; return n.first == key; &#125;); &#125;&#125;;/** * Your MyHashMap object will be instantiated and called as such: * MyHashMap* obj = new MyHashMap(); * obj-&gt;put(key,value); * int param_2 = obj-&gt;get(key); * obj-&gt;remove(key); */]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[897. Increasing Order Search Tree]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%20Increasing%20Order%20Search%20Tree%2F</url>
+    <content type="text"><![CDATA[Question：给定一个二叉树，将树的节点重新排列，使当前树的最左子节点为根节点，排列顺序依照 in-order，且每个节点只有右孩子，没有左孩子。 Solution：Ⅰ 思路result = inorder(root.left) + root + inorder(root.right) 令 next_ 为原树 in-order 遍历中的下一个节点， 新树的左子树为 linked list + root，新树的右子树为 linked list + next_。 Ⅱ 关键代码C++ 1234567TreeNode* increasingBST(TreeNode* root, TreeNode* next_ = NULL) &#123; if (!root) return NULL; TreeNode* res = increasingBST(root-&gt;left, root); root-&gt;left = NULL; root-&gt;right = increasingBST(root-&gt;right, next_); return res;&#125; Java 1234567891011public TreeNode increasingBST(TreeNode root) &#123; return increasingBST(root, null);&#125;public TreeNode increasingBST(TreeNode root, TreeNode next_) &#123; if (root == null) return null; TreeNode res = increasingBST(root.left, root); root.left = null; root.right = increasingBST(root.right, next_); return res;&#125; Python 123456def increasingBST(self, root, next_ = None): if not root: return None res = self.increasingBST(root.left, root) root.left = None root.right = self.increasingBST(root.right, next_) return res]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[15. 3Sum]]></title>
+    <url>%2F2022%2F03%2F10%2FLeetCode.%203Sum%2F</url>
+    <content type="text"><![CDATA[Question：Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero. Note: The solution set must not contain duplicate triplets. Example: 1234567Given array nums = [-1, 0, 1, 2, -1, -4],A solution set is:[ [-1, 0, 1], [-1, -1, 2]] Solution： 对数组进行排序 遍历首位，将问题转化为 sum = target - nums[i] 的 2Sum 使用两个指针对 2Sum 求解 p1 := i+1 ~ p2（有序，前面的已经计算过一遍了） p2 := p1 ~ nums.size()-1 去重（3 个数的和一定，当其中的 2 个数一样时，第 3 个数一定一样） Ⅱ 关键代码C++ 123456789101112131415161718192021222324252627282930313233343536 // sort the arraysort(num.begin(), num.end()); // outer loopfor (int i = 0; i &lt; num.size(); i++) &#123; int target = 0 - num[i]; int front = i + 1; int back = num.size() - 1; // two pointors while (front &lt; back) &#123; int sum = num[front] + num[back]; if (sum &lt; target) front++; else if (sum &gt; target) back--; else &#123; vector&lt;int&gt; triplet(3, 0); triplet[0] = num[i]; triplet[1] = num[front]; triplet[2] = num[back]; res.push_back(triplet); // Processing duplicates of Number 2 // Rolling the front pointer to the next different number forwards while (front &lt; back &amp;&amp; num[front] == triplet[1]) front++; // Processing duplicates of Number 3 // Rolling the back pointer to the next different number backwards while (front &lt; back &amp;&amp; num[back] == triplet[2]) back--; &#125; &#125; // Processing duplicates of Number 1 while (i + 1 &lt; num.size() &amp;&amp; num[i + 1] == num[i]) i++; &#125;]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>Coding</tag>
+      </tags>
+  </entry>
+</search>
